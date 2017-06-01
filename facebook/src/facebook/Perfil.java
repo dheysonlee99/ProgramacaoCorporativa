@@ -1,0 +1,29 @@
+package facebook;
+
+import java.util.List;
+
+public class Perfil {
+	
+	private Usuario usuario;
+	private List<Post> postagens;
+	private List<Usuario> amigos;
+	public Usuario getUsuario() {
+		return usuario;
+	}
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
+	}
+	public List<Post> getPostagens() {
+		return postagens;
+	}
+	public void setPostagens(List<Post> postagens) {
+		this.postagens = postagens;
+	}
+	public List<Usuario> getAmigos() {
+		return amigos;
+	}
+	public void setAmigos(List<Usuario> amigos) {
+		this.amigos = amigos;
+	}
+
+}

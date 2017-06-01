@@ -1,0 +1,38 @@
+package facebook;
+
+import java.util.List;
+
+public class comentario {
+	
+	private String texto;
+	private usuario usuario;
+	private String data;
+	private List<comentario> respostas;
+	public String getTexto() {
+		return texto;
+	}
+	public void setTexto(String texto) {
+		this.texto = texto;
+	}
+	public usuario getUsuario() {
+		return usuario;
+	}
+	public void setUsuario(usuario usuario) {
+		this.usuario = usuario;
+	}
+	public String getData() {
+		return data;
+	}
+	public void setData(String data) {
+		this.data = data;
+	}
+	public List<comentario> getRespostas() {
+		return respostas;
+	}
+	public void setRespostas(List<comentario> respostas) {
+		this.respostas = respostas;
+	}
+	
+	
+
+}
