@@ -6,7 +6,6 @@ public class Grupo {
 	
 	private List<Usuario> usuarios;
 	private List<Post> postagens;
-	
 	public List<Usuario> getUsuarios() {
 		return usuarios;
 	}
