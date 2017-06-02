@@ -7,3 +7,6 @@
 1496404625967	Encapsulate field 'comentario'
 1496404633045	Encapsulate field 'post'
 1496404713484	Encapsulate field 'grupos'
+1496406595254	Encapsulate field 'grupo'
+1496406616085	Encapsulate field 'usuario'
+1496406622870	Encapsulate field 'tipoParticipacao'

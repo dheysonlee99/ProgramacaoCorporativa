@@ -9,7 +9,6 @@ public class Comentario {
 	private String data;
 	private List<Resposta> respostas;
 	private Post post;
-	
 	public String getTexto() {
 		return texto;
 	}
