@@ -8,4 +8,5 @@
 <fullyQualifiedTypeName name="facebook.Usuario"/>
 <fullyQualifiedTypeName name="facebook.Curtida"/>
 <fullyQualifiedTypeName name="facebook.Comentario"/>
+<fullyQualifiedTypeName name="facebook.Perfil"/>
 </qualifiedTypeNameHistroy>

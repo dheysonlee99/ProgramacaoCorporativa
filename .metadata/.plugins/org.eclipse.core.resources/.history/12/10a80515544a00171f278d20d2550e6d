@@ -13,12 +13,12 @@ public class Usuario {
 	
 	public Usuario() {
 	}
-	public Usuario(String nome, String dataNascimento, String email, String senha, Perfil perfil){
+	public Usuario(String nome, String dataNascimento, String email, String senha){
 		this.nome = nome;
 		this.dataNascimento = dataNascimento;
 		this.email = email;
 		this.senha = senha;
-		this.perfil = perfil;
+		
 	}
 	
 	public String getNome() {

@@ -1,0 +1,4 @@
+Um usuario tem um perfil, nele ele participa de varios grupos, 
+faz varios posts envia solicitacoes de amizade.
+Seus posts rebecem varias curtidas e comentarios, 
+e alguns comentarios recebem varias respostas.
