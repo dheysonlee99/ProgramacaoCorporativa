@@ -4,9 +4,20 @@ public class Curtida {
 	
 	private Usuario usuario;
 	private String tipoCurtida;
+	
+	public Curtida() {
+	
+	}
+	
+	public Curtida(Usuario usuario, String tipoCurtida){
+		this.usuario = usuario;
+		this.tipoCurtida = tipoCurtida;
+	}
+	
 	public Usuario getUsuario() {
 		return usuario;
 	}
+	
 	public void setUsuario(Usuario usuario) {
 		this.usuario = usuario;
 	}

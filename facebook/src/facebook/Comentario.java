@@ -1,5 +1,6 @@
 package facebook;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Comentario {
@@ -7,8 +8,19 @@ public class Comentario {
 	private String texto;
 	private Usuario usuario;
 	private String data;
-	private List<Resposta> respostas;
 	private Post post;
+	private List<Resposta> respostas = new ArrayList<Resposta>();
+	
+	
+	public Comentario() {	
+	}
+	public Comentario(String texto, Usuario usuario, String data, Post post){
+		this.texto = texto;
+		this.usuario = usuario;
+		this.data = data;
+		this.post = post;
+		
+	}
 	
 	public String getTexto() {
 		return texto;
@@ -41,6 +53,8 @@ public class Comentario {
 		this.post = post;
 	}
 	
-	
+	public void addResposta(Resposta resposta){
+		respostas.add(resposta);
+	}
 
 }

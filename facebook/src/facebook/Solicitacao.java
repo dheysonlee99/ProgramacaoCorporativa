@@ -7,6 +7,17 @@ public class Solicitacao {
 	private Usuario amigoSolicitado;
 	private String estadoSolicitacao;
 	
+	public Solicitacao() {
+		
+	}
+	
+	public Solicitacao(String data, Usuario usuario, Usuario amigoSolicitado, String estadoSolicitacao) {
+		this.data = data;
+		this.usuario = usuario;
+		this.amigoSolicitado = amigoSolicitado;
+		this.estadoSolicitacao = estadoSolicitacao;
+	}
+	
 	public String getData() {
 		return data;
 	}

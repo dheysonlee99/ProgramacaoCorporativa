@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;facebook.Perfil.solicitacoes&apos; in &apos;facebook.Perfil&apos;&#x0D;&#x0A;- Original project: &apos;facebook&apos;&#x0D;&#x0A;- Original element: &apos;facebook.Perfil.solicitacoes&apos;&#x0D;&#x0A;- Getter method name: &apos;getSolicitacoes&apos;&#x0D;&#x0A;- Setter method name: &apos;setSolicitacoes&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;solicitacoes&apos;" flags="589830" getter="getSolicitacoes" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;facebook{Perfil.java[Perfil^solicitacoes" insertion="7" setter="setSolicitacoes" stamp="1496707646875" version="1.0" visibility="1"/>
+</session>

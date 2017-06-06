@@ -7,6 +7,17 @@ public class Resposta {
 	private Comentario comentario;
 	private Post post;
 	
+	public Resposta() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Resposta(String resposta, Usuario usuario, Comentario comentario, Post post) {
+		this.resposta = resposta;
+		this.usuario = usuario;
+		this.comentario = comentario;
+		this.post = post;
+	}
+	
 	public String getResposta() {
 		return resposta;
 	}

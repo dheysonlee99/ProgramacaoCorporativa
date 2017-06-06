@@ -1,6 +1,6 @@
 package facebook;
 
-import java.util.List;
+
 
 public class Usuario {
 	
@@ -8,7 +8,17 @@ public class Usuario {
 	private String dataNascimento;
 	private String email;
 	private String senha;
-	private List<Grupo> grupos;
+	
+	
+	public Usuario() {
+	}
+	public Usuario(String nome, String dataNascimento, String email, String senha){
+		this.nome = nome;
+		this.dataNascimento = dataNascimento;
+		this.email = email;
+		this.senha = senha;
+		
+	}
 	
 	public String getNome() {
 		return nome;
@@ -34,11 +44,6 @@ public class Usuario {
 	public void setSenha(String senha) {
 		this.senha = senha;
 	}
-	public List<Grupo> getGrupos() {
-		return grupos;
-	}
-	public void setGrupos(List<Grupo> grupos) {
-		this.grupos = grupos;
-	}
+	
 	
 }

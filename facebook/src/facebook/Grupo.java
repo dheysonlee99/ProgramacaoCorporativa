@@ -1,12 +1,16 @@
 package facebook;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Grupo {
 	
-	private List<Usuario> usuarios;
-	private List<Post> postagens;
+	private List<Usuario> usuarios = new ArrayList<Usuario>();
+	private List<Post> postagens = new ArrayList<Post>();
 	
+	public Grupo() {
+		
+	}
 	public List<Usuario> getUsuarios() {
 		return usuarios;
 	}
@@ -18,6 +22,11 @@ public class Grupo {
 	}
 	public void setPostagens(List<Post> postagens) {
 		this.postagens = postagens;
+	}
+	
+	public void addUsuario(Usuario usuario){
+		usuarios.add(usuario);
+
 	}
 	
 

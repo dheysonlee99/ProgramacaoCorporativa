@@ -9,6 +9,16 @@ public class Post {
 	private Usuario usuario;
 	private List<Comentario> comentarios = new ArrayList<>();
 	private List<Curtida> curtidas = new ArrayList<>();
+	
+	public Post() {
+		
+	}
+	
+	public Post(String conteudoPostagem, Usuario usuario) {
+		this.conteudoPostagem = conteudoPostagem;
+		this.usuario = usuario;
+		
+	}
 	public String getConteudoPostagem() {
 		return conteudoPostagem;
 	}
@@ -32,6 +42,15 @@ public class Post {
 	}
 	public void setCurtidas(List<Curtida> curtidas) {
 		this.curtidas = curtidas;
+	}
+	
+	public void addComentario(Comentario comentario){
+		comentarios.add(comentario);
+
+	}
+	public void addCurtida(Curtida curtida){
+		curtidas.add(curtida);
+
 	}
 	
 
