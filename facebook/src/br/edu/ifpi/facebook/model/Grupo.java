@@ -1,0 +1,33 @@
+package br.edu.ifpi.facebook.model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Grupo {
+	
+	private List<Usuario> usuarios = new ArrayList<Usuario>();
+	private List<Post> postagens = new ArrayList<Post>();
+	
+	public Grupo() {
+		
+	}
+	public List<Usuario> getUsuarios() {
+		return usuarios;
+	}
+	public void setUsuarios(List<Usuario> usuarios) {
+		this.usuarios = usuarios;
+	}
+	public List<Post> getPostagens() {
+		return postagens;
+	}
+	public void setPostagens(List<Post> postagens) {
+		this.postagens = postagens;
+	}
+	
+	public void addUsuario(Usuario usuario){
+		usuarios.add(usuario);
+
+	}
+	
+
+}

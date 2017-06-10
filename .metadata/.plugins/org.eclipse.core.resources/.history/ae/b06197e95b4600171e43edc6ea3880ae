@@ -1,9 +1,0 @@
-package facebook;
-
-public class Solicitacao {
-	
-	private String data;
-	private usuario usuario;
-	
-
-}

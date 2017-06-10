@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="facebook.Post"/>
 <fullyQualifiedTypeName name="facebook.Grupo"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
@@ -9,4 +8,11 @@
 <fullyQualifiedTypeName name="facebook.Curtida"/>
 <fullyQualifiedTypeName name="facebook.Comentario"/>
 <fullyQualifiedTypeName name="facebook.Perfil"/>
+<fullyQualifiedTypeName name="br.edu.ifpi.jobsapp.model.Empresa"/>
+<fullyQualifiedTypeName name="br.edu.ifpi.jobsapp.model.Local"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="br.edu.ifpi.facebook.model.Usuario"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="br.edu.ifpi.ads.arquitetura.Instruction"/>
 </qualifiedTypeNameHistroy>

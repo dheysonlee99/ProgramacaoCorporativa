@@ -1,2 +1,5 @@
 1496707646875	Encapsulate field 'solicitacoes'
 1496710993571	Encapsulate field 'perfil'
+1496926119354	Rename package 'facebook'
+1496926161605	Rename package 'br.edu.ifpi.model.facebook'
+1496926633997	Delete element

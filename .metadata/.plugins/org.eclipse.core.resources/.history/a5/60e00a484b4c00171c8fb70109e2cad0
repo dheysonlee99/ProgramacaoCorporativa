@@ -1,0 +1,41 @@
+package br.edu.ifpi.ads.arquitetura;
+
+import java.awt.List;
+import java.util.ArrayList;
+
+// Implementar unidade de atualizacao de registradores, com
+// buffer para até 4 instrucoes.
+public class RegisterUpdateUnit {
+	
+	private Instruction instruction;
+	private List instructions;
+	
+	// TODO deve enfileirar instrucao ja decodificada para
+	// despacho (issue). Retornar false se unidade estiver cheia.
+	public boolean push(Instruction i) {
+		return false;
+	}
+	
+	// TODO deve retornar a primeira instrucao que esteja pronta para despacho (contendo
+	// todos os dados necessarios), com base na ordem de entrada (mas podendo pular
+	// instrucao que nao esteja completa).
+	// instrucoes prontas devem possuir operandPCs nulos, indicando que nao possuem
+	// dependencias (isso ja vem implementado nos testes)
+	public Instruction issue(){
+		return null;
+	}
+	
+	// TODO deve retornar a proxima instrucao que pode ser removida para gravacao nos
+	// registradores (contem result nao nulo)
+	public Instruction pop() {
+		return instructions;
+	}
+	
+	// TODO deve percorrer a fila de instrucoes e atualizar resultados e operandos,
+	// permitindo novas instrucoes serem removidas (pop), despachadas (issue), e inseridas
+	// (por liberar espaco com pop).
+	public void setResult(Short pc, Short result) {
+		
+	}
+
+}
